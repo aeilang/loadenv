@@ -27,7 +27,10 @@ eval "$(loadenv)"
 This loads variables from .env in the current directory.
 
 #### Specify Custom .env File
+
+```sh
 eval "$(loadenv /path/to/custom.env)"
+```
 
 
 #### Preview Output (Without Loading)
